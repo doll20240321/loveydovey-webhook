@@ -2,11 +2,10 @@
   "name": "web-hook",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "7755-threads.js",
   "scripts": {
-    "start": "node 7755-threads.js"
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "node 7755-threads.js"
+  }
   "keywords": [],
   "author": "",
   "license": "ISC",
