@@ -1,8 +1,8 @@
 {
-  "name": "web-hook",
+  "name": "LoveyDovey-webhook",
   "version": "1.0.0",
   "description": "",
-  "main": "7755-threads.js",
+  "main": "lovey-threads.js",
   "scripts": {
   "start": "node 7755-threads.js"
   }
