@@ -31,3 +31,10 @@ checkFeed();
 // 如果要定時檢查（例如每小時一次）
 setInterval(checkFeed, 60 * 60 * 1000);
 
+const axios = require("axios");
+
+axios.post(process.env.WEBHOOK_URL, {
+  content: "Railway 測試訊息：Webhook 成功連線！ 🎉"
+})
+.then(() => console.log("Webhook 測試成功"))
+.catch(err => console.error("Webhook 測試失敗", err));
