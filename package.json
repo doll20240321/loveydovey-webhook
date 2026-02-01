@@ -5,7 +5,7 @@
   "main": "lovey-threads.js",
   "scripts": {
   "start": "node lovey-threads.js"
-  }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
