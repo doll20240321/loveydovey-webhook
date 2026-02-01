@@ -3,8 +3,8 @@ const axios = require('axios');
 const parser = new RSSParser();
 
 // 從 Railway Variables 讀取
-const webhookUrl = process.env.WEBHOOK_URL;
-const feedUrl = process.env.FEED_URL;
+const webhookUrl = process.env.webhook-url;
+const feedUrl = process.env.rss-feed-url;
 
 async function checkFeed() {
     try {
@@ -35,3 +35,4 @@ axios.post(webhookUrl, {
 })
 .then(() => console.log("成功"))
 .catch(err => console.error("失敗", err));
+
