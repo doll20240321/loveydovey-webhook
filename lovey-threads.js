@@ -32,11 +32,4 @@ checkFeed();
 // 定時檢查（例如每小時一次）
 setInterval(checkFeed, 60 * 60 * 1000);
 
-// 額外測試 webhook 是否能送出訊息
-axios.post(webhookUrl, {
-  content: "測試"
-})
-.then(() => console.log("成功"))
-.catch(err => console.error("失敗", err));
-
 
